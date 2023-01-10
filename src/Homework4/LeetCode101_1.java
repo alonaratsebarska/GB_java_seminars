@@ -1,5 +1,23 @@
 package Homework4;
+import java.util.Deque;
+import java.util.ArrayDeque;
 
+/* Task 101. Symmetric Tree
+ * https://leetcode.com/problems/symmetric-tree/description/
+ */
+
+ /*public */ class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
 public class LeetCode101_1 {
     public boolean isSymmetric(TreeNode root) {
         if(root == null)return true;

@@ -1,5 +1,13 @@
 package Homework4;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Arrays;
 
+/* Task 71. Simplify Path
+ * https://leetcode.com/problems/simplify-path/description/
+ */
 public class LeetCode71 {
     public String simplifyPath(String path) {
         Deque<String> stack = new LinkedList<>();

@@ -1,5 +1,8 @@
 package Homework4;
 
+/* Task 542. 01 Matrix
+ * https://leetcode.com/problems/01-matrix/description/
+ */
 public class LeetCode542 {
     public int[][] updateMatrix(int[][] matrix) {
         if(matrix.length==0) return matrix;

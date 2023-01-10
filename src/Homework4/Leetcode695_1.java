@@ -1,5 +1,9 @@
 package Homework4;
+import java.util.Stack;
 
+/* Task 695. Max Area Of Island
+ * https://leetcode.com/problems/max-area-of-island/description/
+ */
 public class Leetcode695_1 {
     public int maxAreaOfIsland(int[][] grid) {
 
